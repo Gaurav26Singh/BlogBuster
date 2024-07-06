@@ -1,0 +1,197 @@
+@media screen and (max-width: 800px){
+
+    .main{
+        overflow-x: hidden;
+    }
+    #posty{
+        width: 85%;
+    }
+    #posty .content{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #posty .controllers{
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+    #sb{
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #sb .lg{
+        display: none;
+    }
+    #lll{
+        margin: 0;
+    }
+   #filter{
+    width:95%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:0;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    gap: 25px;
+   }
+   
+    #ser{
+    width: 75%;
+    position: relative;
+    left: 0;
+   }
+   .fff{
+    display: flex;
+    width: 100%;
+    padding: 0 10px 0 10px;
+    justify-content: space-between;
+   }
+   .fff select{
+      padding: 8px;
+      font-size: 17px;
+   }
+   #comp{
+    padding: 4px 0 4px 0;
+    text-align: center;
+   }
+   #arrow{
+    padding-top: 5px;
+    padding-bottom: 5px;
+   }
+   #sposty{
+    width: 85%;
+    padding: 25px;
+    }
+
+    #sposty .controllers{
+        gap: 30px;
+    }
+    #lnt{
+        display: none;
+    }
+    #up{
+        width: 90%;
+    }
+    #istyle{
+        display: none;
+    }
+    #sup{
+        min-height: 100vh;
+    }
+    #sf{
+        width: 85%;
+        font-size: 20px;
+        margin-top: 50px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    #sf h1{
+        font-size: 20px;
+    }
+    #ppp{
+        padding: 0;
+        margin: 0;
+    }
+    #lh{
+        margin-bottom: 50px;
+    }
+    #ef{
+        width: 90%;
+    }
+    #eb{
+        padding-left: 20px;
+        width: 30%;
+        padding-right: 20px;
+    }
+    #land{
+        display: none;
+    }
+    #ls{
+        padding: 30px;
+        padding-left: 35px;
+        margin-top: 25px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    #ls .content{
+        width: 95%;
+    }
+    #ls .content h1{
+        font-size: 50px;
+        line-height: 64px;
+        margin-bottom: 20px;;
+    }
+    #my{
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    .controllers{
+        justify-content: center;
+        align-items: center;
+    }
+    #gu{
+        display: none;
+    }
+    #pc{
+        width: 100%;
+    }
+    #pc .greet{
+        width: 100%;
+        justify-content: space-between;
+    }
+    #pc .greet .pp{
+        width: 80px;
+        height: 80px;
+    }
+    #pc .greet h1{
+        font-size: 35px;
+        line-height: 50px;
+    }
+    #pc .greet .nxt{
+        margin-top: 5px;
+    }
+    #post{
+        width: 90%;
+    }
+    #pss{
+        width: 100px;
+    }
+    #pmain{
+        overflow-x: hidden
+    }
+    .prevposts{
+        padding: 0;
+    }
+    #pph{
+        margin-top: 25px;
+    }
+    #ppd{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    #ppd .post{
+        width: 100%;
+    }
+    #pposty h1{
+        padding-bottom: 12px;
+    }
+    #mc{
+        gap: 40px;
+    }
+    #mcc{
+      flex-direction: column;
+      gap: 10px;
+    }
+    #mcc .likesystem{
+        font-size: 18px;
+    }
+}
