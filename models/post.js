@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-let moment = require('moment-timezone');
 const { Type } = require('selenium-webdriver/lib/logging');
 
 const postSchema = mongoose.Schema({
@@ -7,7 +6,7 @@ const postSchema = mongoose.Schema({
     username:{type:String, ref:"user"},
     date: {
         type:Date,
-        default:moment.tz(Date.now, "Asia/Calcutta")
+        default:Date.now
     },
    
     content:String,
