@@ -244,12 +244,14 @@
         justify-content: center;
         align-items: center;
         height: 95%;
-        padding: 10px 0 20px 0;
+        /* padding: 10px 0 10px 0; */
+        padding: 0;
         gap: 10px;
+        height: calc(100vh - 62px);
     }
     #ls .content{
         width: 95%;
-        height: 100%;
+        height: fit-content;
         
     }
 
