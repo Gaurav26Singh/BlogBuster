@@ -121,20 +121,22 @@
     #sf{
         width: 85%;
         font-size: 14px;
-        margin-top: 40px;
+        margin-top: 55px;
         padding-top: 10px;
         padding-bottom: 25px;
         border-width: 2px;
-        gap: 17px;
+        gap: 20px;
+        padding-left: 5px;
     }
+
     #sff{
         width: 85%;
         font-size: 14px;
-        margin-top: 80px;
+        margin-top: 90px;
         padding-top: 25px;
         padding-bottom: 25px;
         border-width: 2px;
-        gap: 17px;
+        gap: 20px;
     }
     #sff h1{
         font-size: 14px;
@@ -163,6 +165,7 @@
     #sudu{
         padding: 4px 20px 4px 20px;
         font-size: 16px;
+        margin-left: 10px;
     }
     #ppp img{
         height: 70px;
