@@ -332,7 +332,8 @@
         padding: 18px;
     }
     #pposty h1{
-        padding-bottom: 10px;
+        padding-top: 0;
+        font-size: 14px;
     }
     #mc{
         margin-top: 10px;
@@ -347,6 +348,6 @@
     }
     #dww{
         text-align: right;
-        font-size: 12px;
+        font-size: 14px;
     }
 }
