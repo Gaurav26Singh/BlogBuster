@@ -239,19 +239,23 @@
         display: none;
     }
     #ls{
-        padding: 30px;
-        padding-left: 35px;
         margin-top: 10px;
         text-align: center;
         justify-content: center;
         align-items: center;
+        height: 95%;
+        padding: 10px 0 20px 0;
+        gap: 10px;
     }
     #ls .content{
         width: 95%;
+        height: 100%;
+        
     }
+
     #ls .content h1{
         font-size: 36px;
-        line-height: 64px;
+        line-height: 55px;
         margin-bottom: 12px;;
     }
     #my{
@@ -345,6 +349,9 @@
     }
     #mcc .likesystem{
         font-size: 18px;
+    }
+    #mcc .likesystem span{
+        font-weight: normal;
     }
     #dww{
         text-align: right;
