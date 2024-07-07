@@ -239,7 +239,6 @@
         display: none;
     }
     #ls{
-        margin-top: 10px;
         text-align: center;
         justify-content: center;
         align-items: center;
@@ -247,7 +246,7 @@
         /* padding: 10px 0 10px 0; */
         padding: 0;
         gap: 10px;
-        height: calc(100vh - 62px);
+        height: calc(100vh - 50px);
     }
     #ls .content{
         width: 95%;
