@@ -7,7 +7,7 @@ const postSchema = mongoose.Schema({
     username:{type:String, ref:"user"},
     date: {
         type:Date,
-        default:moment.tz(Date.now, "Asia/India")
+        default:moment.tz(Date.now, "Asia/Calcutta")
     },
    
     content:String,
