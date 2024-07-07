@@ -10,7 +10,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="p-0 m-0 box-border overflow-x-hidden">
-    <div class="main w-screen min-h-screen pb-20 text-white bg-zinc-900 p-0 m-0 box-border ">
+    <div id="fy" class="main w-screen min-h-screen pb-20 text-white bg-zinc-900 p-0 m-0 box-border ">
        <div class="conn sticky top-0">
         <header id="comp" class="bg-red-500 text-white"><h1 class="text-4xl px-10 py-4 font-bold"><a href="/feed">Blog Buster</a></h1></header>
         
@@ -26,7 +26,7 @@
             </div>
         </div>
    
-        <form action="/apply" method="post" id="filter" class=" flex gap-10 text-xl pb-14 pl-10 bg-zinc-900 pt-10">
+        <form action="/apply" method="post" id="filter" class=" flex gap-10 text-xl pb-14 pl-10 bg-transparent pt-10">
              <div class="fff">
                 <label id="lll" class="mr-5">Date:
                     <select class="form-select mt-1 bg-zinc-800 ml-2 text-xl p-1 rounded-md" name="date">
@@ -63,7 +63,7 @@
         
        <div class="posts">
         <% posts.forEach((post)=>{ %>
-            <div id="posty" class="feed w-7/12 border-2 border-pink-500 p-5 mb-10 m-auto rounded-xl shadow-[0_10px_20px_rgba(240,_46,_170,_0.7)]">
+            <div id="posty" class="feed  w-7/12 bg-zinc-900 border-2 border-pink-500 p-5 mb-10 m-auto rounded-xl shadow-[0_10px_20px_rgba(240,_46,_170,_0.7)]">
              <% if(post.edited){ %>
                  <div class="text-right">
                      <h1 class="text-white font-semibold">(Edited)</h1>
