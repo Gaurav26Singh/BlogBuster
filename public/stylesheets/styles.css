@@ -1,7 +1,7 @@
 @media screen and (max-width: 800px){
 
     .all{
-        background-image: url("../images/ggg.gif");
+        background-image: url("../images/gala.gif");
     }
     .main{
   
@@ -250,7 +250,7 @@
         /* padding: 10px 0 10px 0; */
         padding: 0;
         gap: 10px;
-        height: calc(95vh - 100px);
+        height: calc(94vh - 100px);
     }
     #ls .content{
         width: 93%;
@@ -259,15 +259,15 @@
     }
 
     #ls .content h1{
-        font-size: 32px;
+        font-size: 35px;
         line-height: 55px;
         margin-bottom: 12px;;
     }
     #ls .content p{
-        width: 80%;
+        width: 90%;
         text-align: center;
         margin: auto;
-        font-size: 22px;
+        font-size: 25px;
     }
     #my{
         margin-top: 20px;
