@@ -187,7 +187,8 @@ app.post('/post', isLoggedin,async(req,res)=>{
     let post = await postSchema.create({
         user:user._id,
         username:user.username,
-        content:req.body.content
+        content:req.body.content,
+        date: new Date( new Date.now() -  ( new Date.now().getTimezoneOffset() * 60000 ) )
     });
     user.posts.push(post._id);
     await user.save();

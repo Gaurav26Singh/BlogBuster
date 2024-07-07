@@ -6,8 +6,8 @@ const postSchema = mongoose.Schema({
     username:{type:String, ref:"user"},
     date: {
         type:Date,
-        default: Date.now.getTimezoneOffset()
     },
+   
     content:String,
     edited:{
         type:Boolean,
