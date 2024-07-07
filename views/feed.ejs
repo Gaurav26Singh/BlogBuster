@@ -17,10 +17,10 @@
         <div id="sb" class="pcontrol text-right bg-zinc-800 py-3 px-3 flex justify-between items-center">
            <a href="/logout"> <i class="lg fa-solid fa-arrow-right-from-bracket rotate-180 text-3xl font-bold px-4 text-red-500 "></i></a>
             <form id="ser" class=".sf w-6/12 flex" action="/search" method="post">
-                <input type="search" class="w-9/12 border-2 border-red-500 rounded-lg h-[50px] px-7 bg-transparent outline-red-500 focus:ring-0 focus:outline-none rounded-ee-none rounded-tr-none text-xl" name="search" placeholder="Search Here">
-                <input class="bg-red-500 text-xl font-bold px-4 py-2 rounded-lg rounded-tl-none rounded-es-none cursor-pointer" type="submit" value="Search">
+                <input id="seru" type="search" class="w-9/12 border-2 border-red-500 rounded-lg h-[50px] px-7 bg-transparent outline-red-500 focus:ring-0 focus:outline-none rounded-ee-none rounded-tr-none text-xl" name="search" placeholder="Search Here">
+                <input id="seruss" class="bg-red-500 text-xl font-bold px-4 py-2 rounded-lg rounded-tl-none rounded-es-none cursor-pointer" type="submit" value="Search">
             </form>
-            <div class="pro flex flex-col justify-center items-center mr-5">
+            <div id="prof" class="pro flex flex-col justify-center items-center mr-5">
                 <a href="/profile"><div class="pp h-14 w-14 rounded-full border-2 border-red-500"><img  class="h-full w-full rounded-full object-cover" src="/images/uploads/<%=visitor.profilepic%>" alt=""></div></a>
                 <h1 class="pt-1"></h1>
             </div>
@@ -38,7 +38,7 @@
                             <option value="of" selected>Oldest First</option>
                        <% } %>
                   </select></label>
-                  <label>Likes:
+                  <label id="lll">Likes:
                     <select class="form-select mt-1 bg-zinc-800 ml-2 text-xl p-1 rounded-md" name="like">
                         <%if(lv=="ml"){%>
                             <option value="relevance">Relevance</option>
@@ -57,7 +57,7 @@
                         
                   </select></label>
              </div>
-              <input class="bg-red-500 text-xl font-bold px-5 rounded-lg cursor-pointer py-1" type="submit" value="Apply">
+              <input id="appy" class="bg-red-500 text-xl font-bold px-5 rounded-lg cursor-pointer py-1" type="submit" value="Apply">
         </form>
        </div>
         

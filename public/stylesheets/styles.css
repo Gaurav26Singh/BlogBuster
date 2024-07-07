@@ -9,6 +9,7 @@
     #posty .content{
         padding-left: 10px;
         padding-right: 10px;
+        margin-bottom: 25px;
     }
     #posty .controllers{
         padding-left: 10px;
@@ -17,7 +18,7 @@
     }
     #sb{
         width: 100%;
-        padding: 10px;
+        padding: 5px;
         display: flex;
         justify-content: space-between;
     }
@@ -25,7 +26,11 @@
         display: none;
     }
     #lll{
+        font-size: 14px;
         margin: 0;
+    }
+    #lll .form-select{
+        font-size: 14px;
     }
    #filter{
     width:95%;
@@ -36,8 +41,11 @@
     padding:0;
     padding-top: 25px;
     padding-bottom: 30px;
-    font-size: 20px;
-    gap: 25px;
+    font-size: 15px;
+    gap: 5px;
+   }
+   #appy{
+    font-weight: 500;
    }
    
     #ser{
@@ -45,11 +53,29 @@
     position: relative;
     left: 0;
     margin-right: 20px;
+    margin-left: 15px;
+    height: 35px;
+   }
+   #seru{
+    height: 35px;
+    font-size: 14px;
+   }
+   #seruss{
+    padding: 1px 5px 1px 5px;
+    text-align: center;
+    font-size: 14px;
+   }
+   #comp h1{
+    padding: 10px 0 10px 0;
+   }
+   #prof{
+    margin-right: 2px;
    }
    .fff{
     display: flex;
     width: 100%;
     padding: 0 10px 0 10px;
+    margin-bottom: 15px;
     justify-content: space-between;
    }
    .fff select{
@@ -57,8 +83,16 @@
       font-size: 17px;
    }
    #comp{
-    padding: 4px 0 4px 0;
+    padding: 1px 0 1px 0;
     text-align: center;
+   }
+   #comp h1{
+    font-size: 30px;
+   }
+   #shh{
+   padding: 1.5px 0 1.5px 0;
+    text-align: center;
+    font-size: 23px;
    }
    #arrow{
     padding-top: 5px;
@@ -86,17 +120,53 @@
     }
     #sf{
         width: 85%;
-        font-size: 20px;
-        margin-top: 50px;
+        font-size: 14px;
+        margin-top: 40px;
+        padding-top: 10px;
+        padding-bottom: 25px;
+        border-width: 2px;
+        gap: 17px;
+    }
+    #sff{
+        width: 85%;
+        font-size: 14px;
+        margin-top: 80px;
         padding-top: 25px;
         padding-bottom: 25px;
+        border-width: 2px;
+        gap: 17px;
+    }
+    #sff h1{
+        font-size: 14px;
     }
     #sf h1{
-        font-size: 20px;
+        font-size: 14px;
     }
     #ppp{
         padding: 0;
         margin: 0;
+        margin-top: 10px;
+        height: 70px;
+    }
+    #sf .un .inp input{
+        padding: 1.5px 0 1.5px 0;
+        border: none;
+        border-radius: 2px;
+        border-bottom: 2px solid rgb(239 68 68);
+    }
+    #sff .un .inp input{
+        padding: 1.5px 0 1.5px 0;
+        border: none;
+        border-radius: 2px;
+        border-bottom: 2px solid rgb(239 68 68);
+    }
+    #sudu{
+        padding: 4px 20px 4px 20px;
+        font-size: 16px;
+    }
+    #ppp img{
+        height: 70px;
+        width: 130px;
     }
     #lh{
         margin-bottom: 50px;
@@ -115,7 +185,7 @@
     #ls{
         padding: 30px;
         padding-left: 35px;
-        margin-top: 25px;
+        margin-top: 10px;
         text-align: center;
         justify-content: center;
         align-items: center;
@@ -124,9 +194,9 @@
         width: 95%;
     }
     #ls .content h1{
-        font-size: 50px;
+        font-size: 36px;
         line-height: 64px;
-        margin-bottom: 20px;;
+        margin-bottom: 12px;;
     }
     #my{
         margin-top: 20px;
