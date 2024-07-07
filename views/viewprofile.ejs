@@ -52,7 +52,14 @@
                                         <span id="lnt">Likes</span>
                                     </span>
                                 </div>
-                                <div class="date text-red-500 font-semibold text-lg"><%= post.date.toString()%></div>
+                                
+                                <div class="date text-red-500 font-semibold text-lg">
+                                    <%let d = post.date; %>
+                                    <% d.setHours(d.getHours() + 5); %>
+                                    <% d.setMinutes(d.getMinutes() + 30); %>
+                                    <h1 id="dww"> <%=post.date.toLocaleString()%></h1>
+                                    
+                                </div>
                             </div>
                         </div>
                    <% }) %>
