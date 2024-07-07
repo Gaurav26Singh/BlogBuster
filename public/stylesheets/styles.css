@@ -46,6 +46,33 @@
    }
    #appy{
     font-weight: 500;
+    font-size: 14;
+   }
+   #ic{
+    margin-top: 0;
+    align-items: center;
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: 10px;
+   }
+   #ic .back{
+    font-size: 14px;
+    padding: 0;
+   }
+   #ic .back a i{
+    padding: 8px 15px 8px 15px;
+    margin: 0;
+    border-radius: 0;
+    font-size: 18px;
+    margin-top: -1px;
+   }
+   #plg span{
+    font-size: 14px;
+    padding-right: 7px;
+   }
+   #plg i{
+    font-size: 14px;
+    padding: 0;
    }
    
     #ser{
@@ -222,25 +249,44 @@
         width: 100%;
     }
     #pc .greet{
+        padding-top: 20px;
         width: 100%;
         justify-content: space-between;
     }
     #pc .greet .pp{
-        width: 80px;
+        width: 70px;
         height: 60px;
     }
     #pc .greet h1{
-        font-size: 35px;
-        line-height: 50px;
+        font-size: 25px;
+        line-height: 35px;
     }
     #pc .greet .nxt{
         margin-top: 5px;
+        padding-left: 5px;
     }
+    #pc .greet .nxt h3{
+        font-size: 15px;
+    }
+    #nih{
+        margin-top: 25px;
+        gap: 15px;
+    }
+    #nih h1{
+        font-size: 18px;
+    }
+
     #post{
         width: 90%;
     }
     #pss{
         width: 100px;
+        font-size: 19px;
+        padding: 4px 10px 4px 10px;
+    }
+    #post textarea{
+        padding: 15px;
+        height: 150px;
     }
     #pmain{
         overflow-x: hidden
