@@ -186,7 +186,7 @@ app.post('/post', isLoggedin,async(req,res)=>{
     });
     user.posts.push(post._id);
     await user.save();
-    res.redirect('/profile');
+    res.redirect('/feed');
 
 })
 
