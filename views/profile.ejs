@@ -83,7 +83,11 @@
                                 <a href="/edit/<%=post._id%>" class="text-zinc-500 font-semibold">Edit</a>
                             </div>
                             <div class="date text-red-500 font-semibold">
-                                <h1 id="dww"><%= post.date.toLocaleString() %></h1>
+                                <%let d = post.date; %>
+                                <% d.setHours(d.getHours() + 5); %>
+                                <% d.setMinutes(d.getMinutes() + 30); %>
+                                <h1 id="dww"> <%=post.date.toLocaleString()%></h1>
+                                
                             </div>
                         </div>
                     </div>
