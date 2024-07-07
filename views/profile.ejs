@@ -82,7 +82,7 @@
                                 </div>
                                 <a href="/edit/<%=post._id%>" class="text-zinc-500 font-semibold">Edit</a>
                             </div>
-                            <div class="date text-red-500 font-semibold"><%= post.date.toString()%></div>
+                            <div class="date text-red-500 font-semibold"><%= post.date.toUTCString()%></div>
                         </div>
                     </div>
                <% }) %>
