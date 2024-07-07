@@ -9,12 +9,31 @@
     #posty .content{
         padding-left: 10px;
         padding-right: 10px;
-        margin-bottom: 25px;
+        margin-bottom: 20px;
     }
     #posty .controllers{
         padding-left: 10px;
         padding-right: 10px;
         
+    }
+    #posty .header h1{
+        font-size: 12px;
+    }
+    #posty .header .pp{
+        width: 45px;
+        height: 45px;
+    }
+    #fcc .mastercontrol a i{
+        font-size: 16px;
+        padding-right: 5px;
+    }
+    #fcc .mastercontrol span{
+        font-size: 16px;
+       
+    }
+    #ftt{
+        font-size: 15px;
+        font-weight: normal;
     }
     #sb{
         width: 100%;
@@ -45,8 +64,8 @@
     gap: 5px;
    }
    #appy{
-    font-weight: 500;
-    font-size: 14;
+    font-weight: 400;
+    font-size: 16px;
    }
    #ic{
     margin-top: 0;
@@ -63,6 +82,7 @@
     padding: 8px 15px 8px 15px;
     margin: 0;
     border-radius: 0;
+    border: 1px solid white;
     font-size: 18px;
     margin-top: -1px;
    }
@@ -132,7 +152,7 @@
     padding-bottom: 5px;
    }
    #sposty{
-    width: 85%;
+    width: 88%;
     padding: 25px;
     }
 
@@ -249,12 +269,12 @@
         width: 100%;
     }
     #pc .greet{
-        padding-top: 20px;
+        padding-top: 30px;
         width: 100%;
         justify-content: space-between;
     }
     #pc .greet .pp{
-        width: 70px;
+        width: 60px;
         height: 60px;
     }
     #pc .greet h1{
@@ -270,10 +290,12 @@
     }
     #nih{
         margin-top: 25px;
-        gap: 15px;
+        gap: 20px;
     }
     #nih h1{
         font-size: 18px;
+        padding-left: 5px;
+        margin-top: 10px;
     }
 
     #post{
@@ -286,7 +308,7 @@
     }
     #post textarea{
         padding: 15px;
-        height: 150px;
+        height: 180px;
     }
     #pmain{
         overflow-x: hidden
@@ -295,6 +317,7 @@
         padding: 0;
     }
     #pph{
+        font-size: 26px;
         margin-top: 25px;
     }
     #ppd{
@@ -306,11 +329,13 @@
     }
     #ppd .post{
         width: 100%;
+        padding: 18px;
     }
     #pposty h1{
-        padding-bottom: 12px;
+        padding-bottom: 10px;
     }
     #mc{
+        margin-top: 10px;
         gap: 40px;
     }
     #mcc{

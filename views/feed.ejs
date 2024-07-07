@@ -76,7 +76,7 @@
                 <div class="content mb-10 px-8">
                   <h1 class="pt-5 whitespace-pre-wrap"><%=post.content%></h1>
                 </div>
-                <div class="controllers flex justify-between px-8">
+                <div id="fcc" class="controllers flex justify-between px-8">
                  <div class="mastercontrol flex text-xl"> 
                      <% if(post.likes.includes(visitor._id)){ %>
                           <a href="/profile/feed/<%=post.username%>/<%=post._id%>" class="text-red-500 font-semibold"><i class="fa-solid fa-heart pr-2 text-2xl"></i></a>
@@ -85,7 +85,7 @@
                       <% } %>
                       <span class="text-red-500"><%=post.likes.length%> Likes </span>
                   </div>
-                  <div class="date text-red-500 font-semibold text-lg"><%= moment(post.date).fromNow()%></div>
+                  <div id="ftt" class="date text-red-500 font-semibold text-lg"><%= moment(post.date).fromNow()%></div>
                 </div>
             </div>
          <% }) %>
