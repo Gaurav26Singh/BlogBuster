@@ -25,10 +25,16 @@
     }
     #posty .header h1{
         font-size: 12px;
+        margin-top: 0;
+        margin-bottom: 5px;
     }
     #posty .header .pp{
         width: 45px;
         height: 45px;
+    }
+    #vbox{
+        padding: 4px 10px;
+        align-items: center;
     }
     #fcc .mastercontrol a i{
         font-size: 16px;
@@ -59,16 +65,19 @@
         font-size: 14px;
     }
    #filter{
-    width:95%;
+    width:100%;
     margin: auto;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding:0;
-    padding-top: 25px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-size: 15px;
     gap: 5px;
+   }
+   #popo{
+    padding-top: 15px;
    }
    #appy{
     font-weight: 400;
@@ -155,8 +164,9 @@
     font-size: 23px;
    }
    #arrow{
-    padding-top: 5px;
-    padding-bottom: 5px;
+    font-size: 17px;
+    padding-top: 1px;
+    padding-bottom: 1px;
    }
    #sposty{
     width: 88%;
