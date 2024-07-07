@@ -146,8 +146,8 @@
         justify-content: space-between;
     }
     #pc .greet .pp{
-        width: 80px;
-        height: 80px;
+        width: 100px;
+        height: 60px;
     }
     #pc .greet h1{
         font-size: 35px;
