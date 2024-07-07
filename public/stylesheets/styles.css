@@ -250,16 +250,21 @@
         /* padding: 10px 0 10px 0; */
         padding: 0;
         gap: 10px;
-        height: calc(94vh - 100px);
+        height: calc(93vh - 100px);
     }
     #ls .content{
-        width: 93%;
+        width: 95%;
         height: fit-content;
         
     }
 
+    #pls{
+        padding: 2px 14px 2px 14px;
+        font-size: 17px;
+    }
+
     #ls .content h1{
-        font-size: 35px;
+        font-size: 36px;
         line-height: 55px;
         margin-bottom: 12px;;
     }
