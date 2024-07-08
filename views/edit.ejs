@@ -10,20 +10,20 @@
     <title>Edit</title>
 </head>
 <body>
-    <div class="w-full h-screen pb-20 bg-zinc-900 text-white flex flex-col">
+    <div id="fy" class="w-full h-screen pb-20 bg-zinc-900 text-white flex flex-col">
         <header id="comp" class="bg-red-500 text-white"><h1 class="text-4xl px-10 py-4 font-bold"><a href="/">Blog Buster</a></h1></header>
         <a href="/logout">
-            <div class="logout text-right "><span class="text-2xl pr-5">Logout</span><i class="fa-solid fa-right-from-bracket text-3xl pr-7 py-3 text-red-500"></i></div>
+            <div id="plg" class="logout text-right "><span class="text-2xl pr-5">Logout</span><i class="fa-solid fa-right-from-bracket text-3xl pr-7 py-3 text-red-500"></i></div>
         </a>
-        <div class="greet pt-10 px-9">
+        <div id="epc" class="greet pt-10 px-9">
             <h1 class="text-5xl font-bold">Welcome, <%=user.name %></h1> 
             <h3 class="text-2xl font-semibold text-red-500 pt-3">@<%= user.username %></h3> 
         </div>
-        <div class="content  px-9 mt-10 flex flex-col gap-5 h-2/5">
+        <div id="conc" class="content  px-9 mt-10 flex flex-col gap-5 h-2/5">
             <h1 class="text-2xl font-semibold">Edit your post here.</h1>
-            <form id="ef" action="/edit/<%=post._id%>" method="post" class="flex flex-col gap-7 h-[350px] w-5/12">
+            <form id="post" action="/edit/<%=post._id%>" method="post" class="flex flex-col gap-7 h-[350px] w-5/12">
                 <textarea class="resize-none bg-zinc-800 px-5 py-5 text-lg h-4/5 outline-0 rounded-md" name="content"><%=post.content%></textarea>
-                <input id="eb" class="py-2 bg-red-500 font-semibold text-2xl rounded-lg w-1/5 cursor-pointer" type="submit" value="Edit">
+                <input id="pss" class="py-2 bg-red-500 font-semibold text-2xl rounded-lg w-1/5 cursor-pointer" type="submit" value="Edit">
             </form>
         </div>
 

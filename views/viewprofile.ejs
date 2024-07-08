@@ -37,7 +37,7 @@
                         <div id="sposty" class="post border-4 border-zinc-500 bg-zinc-900 w-3/5 rounded-lg p-6 h-fit">
                             <% if(post.edited){ %>
                                 <div>
-                                    <h1 class="text-red-500 font-semibold text-right">(Edited)</h1>
+                                    <h1 id="edh" class="text-red-500 font-semibold text-right">(Edited)</h1>
                                 </div>
                             <% } %>
                             <h1 class="text-justify break-after-all font-sans text-xl py-5 whitespace-pre-wrap"><%=post.content%></h1>

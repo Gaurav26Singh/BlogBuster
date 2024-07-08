@@ -38,11 +38,14 @@
     #posty .header h1{
         font-size: 12px;
         margin-top: 0;
-        margin-bottom: 3px;
+        margin-bottom: 2px;
     }
     #posty .header .pp{
         width: 45px;
         height: 45px;
+    }
+    #edh{
+        font-size: 13px;
     }
     #vpt{
         font-size: 50px;
@@ -335,6 +338,20 @@
     }
     #gu{
         display: none;
+    }
+    #conc{
+        margin-top: 20px;
+    }
+    #epc{
+        width: 90%;
+    }
+    #epc h1{
+        font-size: 34px;
+        line-height: 45px;
+        font-weight: 700;
+    }
+    #epc h3{
+        font-size: 18px;
     }
     #pc{
         width: 100%;
