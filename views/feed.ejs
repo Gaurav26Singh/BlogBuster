@@ -62,33 +62,40 @@
        </div>
         
        <div id="popo" class="posts pt-10">
-        <% posts.forEach((post)=>{ %>
-            <div id="posty" class="feed  w-7/12 bg-zinc-900 border-2 border-pink-500 p-5 mb-10 m-auto rounded-xl shadow-[0_10px_20px_rgba(240,_46,_170,_0.7)]">
-             <% if(post.edited){ %>
-                 <div class="text-right">
-                     <h1 id="edh" class="text-white font-semibold">(Edited)</h1>
-                 </div>
-             <% } %>
-             <div class="header flex items-center gap-1 h-14 mb-3">
-                 <div class="pp h-14 w-14 rounded-full"><img  class="h-full w-full rounded-full object-cover" src="/images/uploads/<%=post.user.profilepic%>" alt=""></div>
-                 <h1 class="text-red-500 text-lg pl-1 mt-3"><a href="feed/profile/<%=post.username%>">@<%= post.username%></a></h1>
-                </div>
-                <div class="content mb-10 px-8">
-                  <h1 class="pt-5 whitespace-pre-wrap"><%=post.content%></h1>
-                </div>
-                <div id="fcc" class="controllers flex justify-between px-8">
-                 <div class="mastercontrol flex text-xl"> 
-                     <% if(post.likes.includes(visitor._id)){ %>
-                          <a href="/profile/feed/<%=post.username%>/<%=post._id%>" class="text-red-500 font-semibold"><i class="fa-solid fa-heart pr-2 text-2xl"></i></a>
-                     <% }else{%>
-                          <a href="/profile/feed/<%=post.username%>/<%=post._id%>" class="text-red-500 font-semibold"><i class="fa-regular fa-heart pr-2 text-2xl"></i></a>
-                      <% } %>
-                      <span class="text-red-500"><%=post.likes.length%> Likes </span>
-                  </div>
-                  <div id="ftt" class="date text-red-500 font-semibold text-lg"><%= moment(post.date).fromNow()%></div>
-                </div>
-            </div>
-         <% }) %>
+            <% if(posts.length ==0){ %>
+                    <div class="conttt relative">
+                        <img class="absolute" src="/images/boo.gif" alt="" srcset="">
+                        <h1 class="absolute">No Posts Yet. </h1>
+                    </div>
+            <%}else{ %>
+                <% posts.forEach((post)=>{ %>
+                    <div id="posty" class="feed  w-7/12 bg-zinc-900 border-2 border-pink-500 p-5 mb-10 m-auto rounded-xl shadow-[0_10px_20px_rgba(240,_46,_170,_0.7)]">
+                     <% if(post.edited){ %>
+                         <div class="text-right">
+                             <h1 id="edh" class="text-white font-semibold">(Edited)</h1>
+                         </div>
+                     <% } %>
+                     <div class="header flex items-center gap-1 h-14 mb-3">
+                         <div class="pp h-14 w-14 rounded-full"><img  class="h-full w-full rounded-full object-cover" src="/images/uploads/<%=post.user.profilepic%>" alt=""></div>
+                         <h1 class="text-red-500 text-lg pl-1 mt-3"><a href="feed/profile/<%=post.username%>">@<%= post.username%></a></h1>
+                        </div>
+                        <div class="content mb-10 px-8">
+                          <h1 class="pt-5 whitespace-pre-wrap"><%=post.content%></h1>
+                        </div>
+                        <div id="fcc" class="controllers flex justify-between px-8">
+                         <div class="mastercontrol flex text-xl"> 
+                             <% if(post.likes.includes(visitor._id)){ %>
+                                  <a href="/profile/feed/<%=post.username%>/<%=post._id%>" class="text-red-500 font-semibold"><i class="fa-solid fa-heart pr-2 text-2xl"></i></a>
+                             <% }else{%>
+                                  <a href="/profile/feed/<%=post.username%>/<%=post._id%>" class="text-red-500 font-semibold"><i class="fa-regular fa-heart pr-2 text-2xl"></i></a>
+                              <% } %>
+                              <span class="text-red-500"><%=post.likes.length%> Likes </span>
+                          </div>
+                          <div id="ftt" class="date text-red-500 font-semibold text-lg"><%= moment(post.date).fromNow()%></div>
+                        </div>
+                    </div>
+                 <% }) %>
+           <% } %>
        </div>
     </div>
 </body>

@@ -395,6 +395,23 @@
     #post{
         width: 90%;
     }
+    .conttt{
+        margin: auto;
+        height: 50vh;
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .conttt img{
+        height: 80%;
+        width: 80%;
+    }
+    .conttt h1{
+        margin: 50px;
+        font-size: 25px;
+        font-weight: 600;
+    }
     #pss{
         width: 100px;
         font-size: 15px;
