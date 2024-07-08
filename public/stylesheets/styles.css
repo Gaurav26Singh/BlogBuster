@@ -1,4 +1,4 @@
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1200px){
 
     #fy{
         background-image: url("../images/cartographer.png");
@@ -159,9 +159,7 @@
     text-align: center;
     font-size: 14px;
    }
-   #comp h1{
-    padding: 10px 0 10px 0;
-   }
+
    #prof{
     margin-right: 1px;
     height: 50px;
@@ -187,7 +185,10 @@
     text-align: center;
    }
    #comp h1{
-    font-size: 30px;
+    font-size: 25px;
+   }
+   #comp h1{
+    padding: 7px 0 7px 0;
    }
    #shh{
    padding: 1.5px 0 1.5px 0;
