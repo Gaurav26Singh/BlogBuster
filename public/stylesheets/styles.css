@@ -404,8 +404,9 @@
         align-items: center;
     }
     .conttt img{
-        height: 80%;
-        width: 80%;
+        display: inline-block;
+        height: 70%;
+        width: 70%;
     }
     .conttt h1{
         margin: 50px;
