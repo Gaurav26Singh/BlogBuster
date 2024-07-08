@@ -128,7 +128,7 @@
     padding: 0;
    }
    #srh{
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
     padding-top: 10px;
    }
@@ -341,12 +341,12 @@
     }
     #pc .greet{
         padding-top: 30px;
-        width: 100%;
+        width: 110%;
         justify-content: space-between;
     }
     #pc .greet .pp{
-        width: 65px;
-        height: 55px;
+        width: 60px;
+        height: 60px;
     }
     #pc .greet h1{
         font-size: 25px;
@@ -358,6 +358,9 @@
     }
     #pc .greet .nxt h3{
         font-size: 15px;
+    }
+    #shr{
+        padding-top: 10px;
     }
     #nih{
         margin-top: 25px;

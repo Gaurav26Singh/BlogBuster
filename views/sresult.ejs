@@ -27,7 +27,7 @@
         </div>
        <h1 id="srh" class="text-4xl font-extrabold pt-10 text-center bg-zinc-900 px-5">Showing results  for: "<%=msg%>"</h1>
         <form action="/<%=msg%>/sapply" method="post" id="filter" class="flex gap-10 text-xl pb-10 pl-10 bg-zinc-900 pt-10">
-             <div class="fff">
+            
                 <label id="lll" class="mr-5">Date:
                     <select class="form-select mt-1 bg-zinc-800 ml-2 text-xl p-2 rounded-md" name="date">
                        <% if(dv=="nf"){ %>
@@ -56,8 +56,7 @@
                         <% }%>
                         
                   </select></label>
-             </div>
-              <input id="appy" class="bg-red-500 text-xl font-bold px-5 rounded-lg cursor-pointer" type="submit" value="Apply">
+              <input id="appy" class="bg-red-500 text-xl font-bold px-5 rounded-lg cursor-pointer" type="submit" value="Go">
         </form>
        </div>
         <div id="popo" class="posts pt-14">
@@ -73,7 +72,7 @@
                      <h1 class="text-red-500 text-lg pl-1 mt-3"><a href="feed/profile/<%=post.username%>">@<%= post.username%></a></h1>
                     </div>
                     <div class="content mb-10 px-8">
-                      <h1 class="pt-5 whitespace-pre-wrap"><%=post.content%></h1>
+                      <h1 id="shr" class="pt-5 whitespace-pre-wrap"><%=post.content%></h1>
                     </div>
                     <div id="fcc" class="controllers flex justify-between px-8">
                      <div class="mastercontrol flex text-xl"> 
