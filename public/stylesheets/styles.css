@@ -84,21 +84,19 @@
     margin: auto;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     padding:0;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 15px;
-    gap: 2px;
+    gap: 20px;
    }
    #popo{
     padding-top: 25px;
    }
    #appy{
-    font-weight: 300;
-    font-size: 11px;
-    padding-top: 1px;
-    padding-bottom: 1px;
+    font-weight: 400;
+    font-size: 10px;
+    padding: 0px 8px
    }
    #ic{
     margin-top: 0;
@@ -151,14 +149,14 @@
     font-size: 14px;
     padding-left: 15px;
     padding-right: 7px;
-    border-width: 1.25px;
+    border-width: 1px;
     
     
    }
    #seruss{
     padding: 1px 5px 1px 5px;
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: normal;
    }
 
@@ -172,16 +170,10 @@
     height: 40px;
     border-width: 1.5px;
    }
-   .fff{
-    display: flex;
-    width: 100%;
-    padding: 0 10px 0 10px;
-    margin-bottom: 15px;
-    justify-content: space-between;
-   }
-   .fff select{
-      padding: 8px;
-      font-size: 17px;
+ 
+   #lll select{
+      padding: 5px;
+      font-size: 14px;
    }
    #comp{
     padding: 1px 0 1px 0;
