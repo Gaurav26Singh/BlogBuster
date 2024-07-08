@@ -73,12 +73,14 @@
         display: none;
     }
     #lll{
-        font-size: 11px;
+        font-size: 15px;
         margin: 0;
     }
-    #lll .form-select{
-        font-size: 11px;
-    }
+    
+   #lll select{
+    padding: 5px;
+    font-size: 17px;
+ }
    #filter{
     width:100%;
     margin: auto;
@@ -95,7 +97,7 @@
    }
    #appy{
     font-weight: 400;
-    font-size: 10px;
+    font-size: 15px;
     padding: 0px 8px
    }
    #ic{
@@ -171,10 +173,6 @@
     border-width: 1.5px;
    }
  
-   #lll select{
-      padding: 5px;
-      font-size: 14px;
-   }
    #comp{
     padding: 1px 0 1px 0;
     text-align: center;
