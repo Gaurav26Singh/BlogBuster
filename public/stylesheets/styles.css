@@ -115,6 +115,16 @@
     font-size: 14px;
     padding: 0;
    }
+   #srh{
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 10px;
+   }
+   #slg{
+    font-size: 18px;
+    padding: 0;
+    margin-left: 5px;
+   }
    
     #ser{
     width: 75%;
@@ -177,7 +187,7 @@
     width: 90%;
     padding: 15px;
     padding-bottom: 10px;
-    border-width: 2px;
+    border-width: 1px;
     }
     #sposty h1{
         font-size: 17px;
@@ -191,7 +201,7 @@
         margin-top: 10px;
     }
     #vpos{
-        gap: 25px;
+        gap: 45px;
     }
     #lnt{
         display: none;
@@ -398,10 +408,11 @@
       gap: 10px;
     }
     #mcc .likesystem{
-        font-size: 16px;
+        font-size: 13px;
     }
     #mcc .likesystem span{
         font-weight: normal;
+        font-size: 17px;
     }
     #mcc a{
         font-size: 13px;
