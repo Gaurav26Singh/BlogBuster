@@ -10,7 +10,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <div id="fy" class="main w-full min-h-screen pb-20 text-white bg-zinc-900">
+    <div id="fy" class="main w-full min-h-screen pb-20 text-white bg-zinc-900 bg-[url('/images/cartographer.png')] ">
        <div class="conn sticky top-0">
         <header id="comp" class="bg-red-500 text-white"><h1 class="text-4xl px-10 py-4 font-bold"><a href="/feed">Blog Buster</a></h1></header>
         
@@ -26,7 +26,7 @@
             </div>
         </div>
        <h1 id="srh" class="text-4xl font-extrabold pt-10 text-center bg-zinc-900 px-5">Showing results  for: "<%=msg%>"</h1>
-        <form action="/<%=msg%>/sapply" method="post" id="filter" class="flex gap-10 text-xl pb-14 pl-10 bg-zinc-900 pt-10">
+        <form action="/<%=msg%>/sapply" method="post" id="filter" class="flex gap-10 text-xl pb-10 pl-10 bg-zinc-900 pt-10">
              <div class="fff">
                 <label id="lll" class="mr-5">Date:
                     <select class="form-select mt-1 bg-zinc-800 ml-2 text-xl p-2 rounded-md" name="date">
@@ -60,9 +60,9 @@
               <input id="appy" class="bg-red-500 text-xl font-bold px-5 rounded-lg cursor-pointer" type="submit" value="Apply">
         </form>
        </div>
-        <div id="popo" class="posts">
+        <div id="popo" class="posts pt-14">
             <% posts.forEach((post)=>{ %>
-                <div id="posty" class="feed w-7/12 border-2 border-pink-500 p-5 mb-10 m-auto rounded-xl shadow-[0_10px_20px_rgba(240,_46,_170,_0.7)]">
+                <div id="posty" class="feed w-7/12 border-2 border-pink-500 p-5 mb-10 m-auto rounded-xl shadow-[0_10px_20px_rgba(240,_46,_170,_0.7)] bg-zinc-900">
                  <% if(post.edited){ %>
                      <div class="text-right">
                          <h1 class="text-white font-semibold">(Edited)</h1>
@@ -75,7 +75,7 @@
                     <div class="content mb-10 px-8">
                       <h1 class="pt-5 whitespace-pre-wrap"><%=post.content%></h1>
                     </div>
-                    <div class="controllers flex justify-between px-8">
+                    <div id="fcc" class="controllers flex justify-between px-8">
                      <div class="mastercontrol flex text-xl"> 
                          <% if(post.likes.includes(visitor._id)){ %>
                               <a href="/profile/search/<%=post.username%>/<%=post._id%>" class="text-red-500 font-semibold"><i class="fa-solid fa-heart pr-2 text-2xl"></i></a>
@@ -84,7 +84,7 @@
                           <% } %>
                           <span class="text-red-500"><%=post.likes.length%> Likes </span>
                       </div>
-                      <div class="date text-red-500 font-semibold text-lg"><%= moment(post.date).fromNow()%></div>
+                      <div id="ftt" class="date text-red-500 font-semibold text-lg"><%= moment(post.date).fromNow()%></div>
                     </div>
                 </div>
              <% }) %>

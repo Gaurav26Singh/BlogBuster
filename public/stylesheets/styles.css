@@ -10,6 +10,18 @@
   
         overflow-x: hidden;
     }
+    #srs{
+        margin-top:0;
+        gap: 10px;
+    }
+    #gbb{
+        font-size: 15px;
+        padding: 4px 15px 4px 15px;
+    }
+    #nsr{
+        width: 80%;
+        font-size: 24px;
+    }
     #posty{
         width: 85%;
     }
@@ -137,6 +149,10 @@
    #seru{
     height: 35px;
     font-size: 14px;
+    padding-left: 15px;
+    padding-right: 7px;
+    
+    
    }
    #seruss{
     padding: 1px 5px 1px 5px;
@@ -201,7 +217,7 @@
         margin-top: 10px;
     }
     #vpos{
-        gap: 45px;
+        gap: 40px;
     }
     #lnt{
         display: none;

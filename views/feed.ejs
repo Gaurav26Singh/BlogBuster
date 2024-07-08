@@ -10,7 +10,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="p-0 m-0 box-border overflow-x-hidden">
-    <div id="fy" class="main w-screen min-h-screen pb-20 text-white bg-zinc-900 p-0 m-0 box-border ">
+    <div id="fy" class="main w-screen min-h-screen pb-20 text-white bg-zinc-900 p-0 m-0 box-border bg-[url('/images/cartographer.png')] ">
        <div class="conn sticky top-0">
         <header id="comp" class="bg-red-500 text-white"><h1 class="text-4xl px-10 py-4 font-bold"><a href="/feed">Blog Buster</a></h1></header>
         
@@ -61,7 +61,7 @@
         </form>
        </div>
         
-       <div id="popo" class="posts">
+       <div id="popo" class="posts pt-10">
         <% posts.forEach((post)=>{ %>
             <div id="posty" class="feed  w-7/12 bg-zinc-900 border-2 border-pink-500 p-5 mb-10 m-auto rounded-xl shadow-[0_10px_20px_rgba(240,_46,_170,_0.7)]">
              <% if(post.edited){ %>
