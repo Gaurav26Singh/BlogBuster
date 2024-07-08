@@ -73,13 +73,13 @@
         display: none;
     }
     #lll{
-        font-size: 15px;
+        font-size: 14px;
         margin: 0;
     }
     
    #lll select{
     padding: 5px;
-    font-size: 17px;
+    font-size: 12px;
  }
    #filter{
     width:100%;
@@ -97,7 +97,7 @@
    }
    #appy{
     font-weight: 400;
-    font-size: 15px;
+    font-size: 13px;
     padding: 0px 8px
    }
    #ic{
