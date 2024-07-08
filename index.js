@@ -33,7 +33,7 @@ app.get('/signup',(req,res)=>{
 
 app.get('/login',(req,res)=>{
    
-    console.log(req.cookies.token);
+    //console.log(req.cookies.token);
     if(req.cookies.token==null)  res.render("login");
     if(req.cookies.token !="") res.redirect('/feed');
     res.render("login");
@@ -119,7 +119,7 @@ app.get('/profile/update',isLoggedin,(req,res)=>{
 app.post('/updatepp',isLoggedin,upload.single('image'), async(req, res, next)=>{
     
      let user = await userSchema.findOne({email:req.user.email});
-     console.log(user);
+     //console.log(user);
      user.profilepic = req.file.filename;
      await user.save();
      res.redirect('/profile');
