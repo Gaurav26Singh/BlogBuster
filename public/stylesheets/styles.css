@@ -26,11 +26,14 @@
     #posty .header h1{
         font-size: 12px;
         margin-top: 0;
-        margin-bottom: 5px;
+        margin-bottom: 3px;
     }
     #posty .header .pp{
         width: 45px;
         height: 45px;
+    }
+    #vpt{
+        font-size: 50px;
     }
     #vbox{
         padding: 4px 10px;
@@ -80,8 +83,8 @@
     padding-top: 25px;
    }
    #appy{
-    font-weight: 400;
-    font-size: 16px;
+    font-weight: 300;
+    font-size: 14px;
    }
    #ic{
     margin-top: 0;
