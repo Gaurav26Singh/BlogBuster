@@ -262,7 +262,7 @@ app.get('/nsos',(req,res)=>{
 
 function isLoggedin(req,res,next)
 {
-    if(req.cookies.token==="")
+    if(req.cookies.token==null || req.cookies.token==="")
         {
             let msg = "Please Login First !!";
             res.render("error",{msg,url:'login'})

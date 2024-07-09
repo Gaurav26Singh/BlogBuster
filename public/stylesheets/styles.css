@@ -25,6 +25,24 @@
     #posty{
         width: 85%;
     }
+    #bee{
+        margin-top: 15px;
+        height: 30%;
+        width: 50%;
+    }
+    #bee img{
+        height: 100%;
+        width: 100%;
+    }
+    #etext{
+        font-size: 17px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+    #egb{
+        padding: 2px 12px;
+        font-size: 18px;
+    }
     #posty .content{
         padding-left: 10px;
         padding-right: 10px;
