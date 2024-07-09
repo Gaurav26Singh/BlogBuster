@@ -75,9 +75,9 @@
                              <h1 id="edh" class="text-white font-semibold">(Edited)</h1>
                          </div>
                      <% } %>
-                     <div class="header flex items-center gap-1 h-14 mb-3">
+                     <div class="header flex items-center gap-0 h-14 mb-3">
                          <div class="pp h-14 w-14 rounded-full"><img  class="h-full w-full rounded-full object-cover" src="/images/uploads/<%=post.user.profilepic%>" alt=""></div>
-                         <h1 class="text-red-500 text-lg pl-1 mt-3"><a href="feed/profile/<%=post.username%>">@<%= post.username%></a></h1>
+                         <h1 class="text-red-500 text-lg pl-0 mt-0"><a href="feed/profile/<%=post.username%>">@<%= post.username%></a></h1>
                         </div>
                         <div class="content mb-10 px-8">
                           <h1 class="pt-5 whitespace-pre-wrap"><%=post.content%></h1>
@@ -89,7 +89,7 @@
                              <% }else{%>
                                   <a href="/profile/feed/<%=post.username%>/<%=post._id%>" class="text-red-500 font-semibold"><i class="fa-regular fa-heart pr-2 text-2xl"></i></a>
                               <% } %>
-                              <span class="text-red-500"><%=post.likes.length%> Likes </span>
+                              <span class="text-red-500 text-xl"><%=post.likes.length%> Likes </span>
                           </div>
                           <div id="ftt" class="date text-red-500 font-semibold text-lg"><%= moment(post.date).fromNow()%></div>
                         </div>
